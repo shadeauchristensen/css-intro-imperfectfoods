@@ -3,6 +3,53 @@
 
 /* COLORS */
 /* background color -> #B4E4E6 */
-/* text color -> #453D3D */
-/* button color -> #B32274 */
-/* button text color -> white */
+/* text color -> #453D3D  */
+/* button color -> #B32274
+button text color -> white */
+
+
+/* Flair of page */
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: #B4E4E6; /* Light blue background */
+    color: #453D3D; /* Text color */
+    text-align: center;
+    padding: 20px;
+    flex-direction: row;
+}
+
+/* Heading */
+h1 {
+    font-size: 36px;
+    margin-bottom: 90px;
+    font-weight: 400;
+}
+
+/* Section */
+h2 {
+    font-size: 20px;
+    margin: 15px 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: .5;
+    margin: 100 50 20px;
+}
+
+/* Img Styling */
+img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    
+}
+/* Btn Styling */
+button {
+    color: white;
+    background-color: #B32274;
+    display: center;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 15px ;
+}
